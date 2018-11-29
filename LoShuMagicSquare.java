@@ -13,7 +13,6 @@ public class LoShuMagicSquare
            
    public static void main(String[] args)
    {     
-      boolean isLoShu = false;
       int[][] loShuSquareArray = {{4,9,2}, {3,5,7}, {8,1,6}};
       
       isLoShu = calculateLoShu(loShuSquareArray);
@@ -23,7 +22,6 @@ public class LoShuMagicSquare
    
    public static boolean calculateLoShu(int[][] array)
    {
-      boolean isLoShu = false;               // Detemine if magic square
       int r0 = 0;                            // Holds total for row 1
       int r1 = 0;                            // Holds total for row 2
       int r2 = 0;                            // Holds total for row 3
